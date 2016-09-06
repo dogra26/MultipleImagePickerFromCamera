@@ -16,4 +16,5 @@ HOW TO USE :-
     viewController.shouldShowCounter = YES;
     viewController.maxPhotoCount = 30;
 
+
 2. Set the delegate for DDCameraImagePickerDelegate and implement its delegate methods.
