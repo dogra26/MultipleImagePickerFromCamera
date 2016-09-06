@@ -234,7 +234,6 @@ CGFloat DegreesToRadians(CGFloat degrees) {return degrees * M_PI / 180;};
         AVCaptureDevice *newCamera = nil;
         if(((AVCaptureDeviceInput*)currentCameraInput).device.position == AVCaptureDevicePositionBack) {
             newCamera = [weakSelf cameraWithPosition:AVCaptureDevicePositionFront];
-            self.isFlashLightOn = NO;
             self.flashLightButton.hidden = YES;
         }else {
             newCamera = [weakSelf cameraWithPosition:AVCaptureDevicePositionBack];
