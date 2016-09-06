@@ -7,7 +7,7 @@ HOW TO USE :-
 
 1. Make the object of DDCameraImagePickerViewController class and set some of its properties.
 
-
+    // e.g.
     DDCameraImagePickerViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([DDCameraImagePickerViewController class])];
     viewController.tapForPhotoTitleString = @"Tap for Photo";
     viewController.doneButtonTitleString = @"Done";
